@@ -1,0 +1,10 @@
+{
+  "name": "sequential-thinking-mcp-deploy-fixed",
+  "version": "1.0.0",
+  "description": "Fixed deployment package for Sequential Thinking MCP Server",
+  "scripts": {
+    "install": "./install.sh"
+  },
+  "author": "",
+  "license": "MIT"
+}

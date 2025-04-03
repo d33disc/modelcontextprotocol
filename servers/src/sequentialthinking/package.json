@@ -1,0 +1,36 @@
+{
+  "name": "@modelcontextprotocol/server-sequential-thinking",
+  "version": "1.0.0",
+  "description": "MCP server for sequential thinking process",
+  "main": "index.js",
+  "bin": {
+    "mcp-sequential-thinking": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "test": "jest",
+    "validate": "node validate.js",
+    "debug": "node ./bin/cli.js --debug",
+    "prestart": "node validate.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "sequential-thinking",
+    "problem-solving",
+    "reasoning",
+    "thought-process"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/mcp": "file:../../../mcp"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

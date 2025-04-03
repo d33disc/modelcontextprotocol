@@ -1,0 +1,11 @@
+{
+  "name": "@modelcontextprotocol/mcp-scripts",
+  "version": "1.0.0",
+  "description": "Utility scripts for MCP servers",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
